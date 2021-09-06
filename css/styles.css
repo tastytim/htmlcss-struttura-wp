@@ -39,18 +39,20 @@ footer {
 
 .blocco3 {
   background-color: skyblue;
-}
-
-.blocco3 aside {
-  width: 200px;
-}
-
-.blocco3 div {
-  width: calc(100% - 200px * 2);
+  border-top: 15px solid blue;
+  border-bottom: 15px solid blue;
 }
 
 .col3 {
-  border: 5px solid blue;
+  width: 200px;
+  float: left;
+  height: 300px;
+}
+
+.divcol2 {
+  width: calc(100% - 200px * 2);
+  border-left: 10px solid blue;
+  border-right: 10px solid blue;
   float: left;
   height: 300px;
 }
